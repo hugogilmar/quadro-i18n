@@ -8,6 +8,8 @@ This project rocks and uses MIT-LICENSE.
 
 This gem provides internationalization files for **Quadro**.
 
+## Current stable version
+
 Current stable version.
 
 [![Gem Version](https://badge.fury.io/rb/quadro-i18n.png)](https://badge.fury.io/rb/quadro-i18n)
