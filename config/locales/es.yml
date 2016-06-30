@@ -1,0 +1,86 @@
+es:
+  activerecord:
+    models:
+      quadro/user: "Usuario"
+      quadro/page: "Página"
+      quadro/asset/slide: "Diapositiva"
+      quadro/asset/image: "Imágen"
+  time:
+    formats:
+      atom: "%FT%TZ"
+      rss: "%a, %d %b %Y %H:%M:%S %z"
+  simple_form:
+    "yes": "Si"
+    "no": "No"
+    required:
+      text: "requerid"
+      mark: "*"
+    error_notification:
+      default_message: "Por favor, revise los problemas a continuación:"
+    labels:
+      defaults:
+        name: "Nombre completo"
+        email: "Correo electrónico"
+        password: "Contraseña"
+        password_confirmation: "Confirmar contraseña"
+        current_password: "Contraseña actual"
+        remember_me: "Recordarme"
+        message: "Mensaje"
+        title: "Título"
+        summary: "Resúmen"
+        author_id: "Autor"
+        published_at: "Fecha de publicación"
+        template: "Plantilla"
+        frequency: "Frecuencia"
+        priority: "Prioridad"
+        alt: "Texto alternativo"
+        href: "Enlazar a URL"
+        width: "Ancho"
+        height: "Alto"
+    hints:
+      defaults:
+    placeholders:
+      defaults:
+        summary: "Texto que se mostrará como una descripción en los resultados de búsqueda"
+  quadro:
+    navigation:
+      sign_in: "Iniciar sesión"
+    toolbar:
+      new: "Nueva sub página"
+      edit: "Editar"
+      delete: "Eliminar"
+      publish: "Publicar"
+      unpublish: "Ocultar"
+      gallery: "Galería"
+      save: "Guardar"
+      editor: "Editor"
+      sitemap: "Notificar sitemap.xml"
+      profile: "Editar usuario"
+      sign_out: "Cerrar sesión"
+    modal:
+      new: "Nuevo"
+      edit: "Editar"
+    field:
+      chars_remaining: "caracteres restantes"
+      uploader: "Arrastre y suelte los archivos aquí o haga clic para seleccionarlos"
+      upload:
+        select: "Seleccionar"
+        change: "Cambiar"
+        remove: "Remover"
+    flash:
+      created: "Se ha creado correctamente"
+      not_created: "No fue creada correctamente"
+      updated: "Se ha actualizado correctamente"
+      not_updated: "No fue actualizada correctamente"
+      deleted: "Se ha eliminado correctamente"
+      could_not_be_deleted: "No se puede eliminar"
+      not_deleted: "No fue eliminada correctamente"
+      published: "Se ha publicado correctamente"
+      not_published: "No fue publicada correctamente"
+      unpublished: "Se ha ocultado correctamente"
+      not_unpublished: "No fue ocultada correctamente"
+      notified: "Actualización de sitemap notificada"
+    confirmation:
+      page: "¿Está seguro de borrar esta página?"
+      image: "¿Está seguro de borrar esta imágen?"
+      slide: "¿Está seguro de borrar esta diapositiva?"
