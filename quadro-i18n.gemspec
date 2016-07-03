@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "Quadro Content Management System Internationalization"
   s.license     = "MIT"
 
-  s.files = Dir["{config,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{config,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2"
