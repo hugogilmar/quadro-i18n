@@ -28,6 +28,8 @@ Then you need to run your bundler.
 bundle install
 ```
 
+*Note: for Rails 3.2 use 0.5.x gem version.*
+
 ## Use it and enjoy it
 
 Now you are ready to get started with **Quadro** internationalization files.
