@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    quadro-i18n (0.5.8)
+    quadro-i18n (0.6.0)
       quadro (~> 0.6)
       rails (~> 4.2)
 
